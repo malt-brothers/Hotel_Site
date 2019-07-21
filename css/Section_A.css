@@ -1,0 +1,60 @@
+::-moz-selection {
+  color: #fff;
+  background: #ffba5a; }
+
+::selection {
+  color: #fff;
+  background: #ffba5a; }
+
+.bg-light {
+  background: #f2f4fb !important; }
+
+.container-fluid {
+  max-width: 1600px; }
+
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px; }
+  .btn.btn-outline-white {
+    border: 2px solid #fff; }
+    .btn.btn-outline-white:hover {
+      border: 2px solid transparent;
+      background: #000;
+      color: #fff; }
+  .btn.btn-outline-white-primary {
+    border: 2px solid #fff; }
+    .btn.btn-outline-white-primary:hover {
+      border: 2px solid transparent;
+      background: #ffba5a;
+      color: #fff; }
+  .btn.uppercase {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .2em; }
+
+.btn, .form-control {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+  .btn:focus, .btn:active, .form-control:focus, .form-control:active {
+    outline: none; }
+
+
+
+.img-absolute {
+  position: absolute;
+  bottom: -100px;
+  right: -100px; }
+  .img-absolute img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 10px solid #f2f4fb; }
+  @media (max-width: 991.98px) {
+    .img-absolute {
+      right: 0px; }
+      .img-absolute img {
+        max-width: 160px; } }
+
