@@ -30,7 +30,7 @@ body{
   transition: 0.5s;
 }
 .navbar-nav li{
-  padding: 0 11px;
+  padding: 0 5px;
 }
 
 .navbar-nav li a{
