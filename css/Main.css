@@ -16,12 +16,14 @@ body{
   color:#333;
   overflow-x:hidden;
 }
+
 /* navigation bar css */
 #nav-bar{
     position:relative;
     top: 0;
     z-index: 10;
     padding-right: 10px;
+    background-color: rgba(0,0,0,0.4);
 
 }
 .navbar-brand img{
@@ -54,6 +56,7 @@ body{
   opacity: 1;
   filter: blur(0);
   font-weight: bold;
+  /*font-size: 20px;*/
 
 }
 .navbar-nav li a:before{
@@ -75,12 +78,15 @@ body{
   transform-origin:left;
   transform: scalex(1);
   border-radius:5px;
-  border-bottom: 3px solid red;
-}
- #active{
-  font-weight: bold;
+  border-bottom: 2px solid red;
 }
 
+#active{
+  font-size: 25px;
+  color:#00FA9A; 
+}
+
+/*header content*/
 .v-header{
   height:100vh;
   display:flex;
@@ -118,7 +124,7 @@ body{
   left:0;
   width:100vw;
   z-index:1;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.4);
   opacity:.5;
 }
 
@@ -152,7 +158,8 @@ body{
   position: absolute;
   bottom: 0px;
   align-items: center;
-  left: 46%;
+  left: 45%;
+  right: 45%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
